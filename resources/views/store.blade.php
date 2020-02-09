@@ -41,13 +41,13 @@
 				</div>
 
 				<div class="row" style="width:100%; margin-top: 2em; padding: 2em">
-					<h1>{{$product->name}}</h1>
+					<h1 style="font-weight: bold; font-size: 3em">{{$product->name}}</h1>
 					<p>{{$product->description}}</p>
 				</div>
 
 				<div class="row" style="padding: 2em">
 					<div class="col-md-6" style="font-size: 1.5em">						
-						&#8358;<input name="amount" id="amount" type="text" readonly="readonly" class="btn roundButton" value="{{$product->price}}" class="amountField" style="text-align: left;">
+						&#8358;<input name="amount" id="amount" type="text" readonly="readonly" class="btn roundButton" value="{{$product->price}}" class="amountField" style="text-align: left;font-size: 1em;font-weight: bold;">
 						<input type="hidden" name="uPrice" id="uPrice" value="{{$product->price}}">
 
 					</div>

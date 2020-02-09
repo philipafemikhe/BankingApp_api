@@ -53,7 +53,7 @@
 
                         <div class="row" style="margin-top: 2em">
                              <div class="col-md-4">
-                                <input type="radio" name="category" value="Most Rated"> Most Rated
+                                <input type="radio" name="category" value="Most Rated" style="size: 20px"> Most Rated
                             </div>
                             <div class="col-md-4">
                                 <input type="radio" name="category" value="Best Selling"> Best Selling

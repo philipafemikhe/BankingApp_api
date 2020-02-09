@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,600);
 body{
     background-color: #fff;
-    /*background: url('/resources/background-object@2x.png');*/
+
 }
 .gradientBackground{
     background-image: linear-gradient(#41abff, #006cff);
@@ -18,6 +18,11 @@ body{
     width: auto;
     padding: 0.25em;
     
+}
+
+input[type="radio"] {
+  height: 30px;
+width: 30px;
 }
 
 .loginBtn{

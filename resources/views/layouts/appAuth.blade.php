@@ -33,7 +33,7 @@
                 </span>
 
                 <div class="authLinkBar">
-                   <a href="{{url('/product')}}" class="authLink">Upload Product</a>
+                   <a href="{{url('/home')}}" class="authLink">Upload Product</a>
                    <a href="{{url('/store')}}" class="authLink">Store</a>
 
                    <a class="authLink" href="{{ route('logout') }}"
